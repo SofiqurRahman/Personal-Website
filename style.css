@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.65;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* Start section-area-one */
+#section-area-one{
+    background: url(images/header-bg.png);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-size: cover;
+    overflow: hidden;
+}
+#section-area-one header{}
+.introduce-area{
+    width: 50%;
+    float: left;
+}
+.introduce-area h1{}
+.introduce-area span{
+    color: #EC4C76;
+    font-weight: 700;
+}
+.introduce-area p{
+    margin-bottom: 50px;
+}
+.link-button{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    background: #EC4C76;
+}
+.introduce-area img{
+    width: 80%;
+    float: right;
+}
+/* End section-area-one */
+
+/* Start section-area-two */
+#section-area-two{
+    background: url(images/biography-bg.png);
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.biography-area{
+    width: 50%;
+    float: left;
+}
+.biography-area img{
+    width: 80%;
+}
+.biography-area h1{}
+.biography-area p{
+    margin-bottom: 50px;
+}
+/* End section-area-two */
+
+/* Start section-area-three */
+#section-area-three{
+    background: url(images/latest-work-bg.png);
+    overflow: hidden;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+}
+.work-area{}
+.work-area h1{
+    text-align: center;
+}
+.work-area img{
+    width: 33%;
+    float: left;
+}
+/* End section-area-three */
+
+/* Start section-area-four */
+#section-area-four{
+    background: url(images/latest-work-bg.png);
+    overflow: hidden;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.client-area{}
+.client-area h1{}
+.client-area h2{
+    font-weight: 400;
+    margin: 0;
+}
+.client-area p{
+    text-align: center; 
+    margin: 0;
+    padding-bottom: 30px;
+}
+.email-area{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 80%;
+    background-color: #EC4C76;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+.email-area h4{
+    margin: 0;
+    font-weight: 300;
+}
+.email-area a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+/* End section-area-four */
+
+/* Start section-area-five */
+#section-area-five{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#section-area-five footer{}
+#section-area-five footer p{
+    text-align: center;
+}
+/* End section-area-five */
